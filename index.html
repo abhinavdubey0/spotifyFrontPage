@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY - MUSIC IS LOVE</title>
+    <link rel="Stylesheet" href="style.css"> 
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src="logo.png" alt="Spotify"> SPOTIFY </li>
+            <li> HOME </li>
+            <li> ABOUT US</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h2> Beautifull Tracks </h2>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1" >
+                    <span class="songName"> Khana Badosh </span>
+                    <span class="songlistplay"><span class="timeStamp"> 04:40 <i id="0" class="fa-solid songItemPlay fa-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songName"> Hawayein </span>
+                    <span class="songlistplay"><span class="timeStamp"> 05:07 <i id="1"class="fa-solid songItemPlay fa-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span class="songName"> Jeene Laga Hoon </span>
+                    <span class="songlistplay"><span class="timeStamp"> 04:21 <i id="2"class="fa-solid songItemPlay fa-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songName"> Kuch Toh Bata Zindagi </span>
+                    <span class="songlistplay"><span class="timeStamp"> 03:59 <i id="3"class="fa-solid songItemPlay fa-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songName"> Mai Rang Sharbato ka </span>
+                    <span class="songlistplay"><span class="timeStamp"> 05:59 <i id="4"class="fa-solid songItemPlay fa-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songName"> Tu Itni Khubsurat Hai </span>
+                    <span class="songlistplay"><span class="timeStamp"> 04:36 <i id="5"class="fa-solid songItemPlay fa-play"></i> </span></span>
+                </div>
+                <div class="songItem"> 
+                    <img src="covers/7.jpg" alt="1">
+                    <span class="songName"> Waliyaan </span>
+                    <span class="songlistplay"><span class="timeStamp"> 03:19 <i id="6"class="fa-solid songItemPlay fa-play"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="SongBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar"  value="0" min="0" max="100">
+        <div class="icons">
+            <!-- Font Awesome Icons -->
+            <i class="fa-solid fa-angles-left" id="previous"></i>
+            <i class="fa-solid songItemPlay fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-angles-right" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" id="gif" width="42px" alt=""> <span id="masterSongName"> Best Lofi </span>
+        </div>
+    </div>
+    <script src="script.js"> </script>
+    <script src="https://kit.fontawesome.com/47ad85f23a.js" crossorigin="anonymous"></script>
+</body>
+</html>
